@@ -104,7 +104,7 @@
     } */
     .list-force .link,
     .mail-header, .tel {
-        display: block;
+        
         padding-top: 32px;
         padding-bottom: 32px;
     }
@@ -125,13 +125,25 @@
         color: var(--accent-color);
     }
     .address-header {
-        padding: 0;
         display: flex;
         align-items: center;
+    }
+    .mail-icon {
+        padding: 0;
+        border: none;
+        width: 16px;
+        height: 12px;
+        
     }
 
     .mail-header {
         color: var(--pt-color);        
+    }
+    .tel-icon {
+        padding: 0;
+        border: none;
+        width: 10px;
+        height: 16px;
     }
 
     .tel {
@@ -155,9 +167,7 @@
         background-color: var(--tbg-color);
         background-image: linear-gradient( to right,
         rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/mainbg.jpg)
-       
-        ;
+        url(../images/mainbg.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
