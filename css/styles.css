@@ -148,9 +148,23 @@
     .section1 {
         padding-top: 200px;
         padding-bottom: 200px;
+        max-width: 1600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
         background-color: var(--tbg-color);
+        background-image: linear-gradient( to right,
+        rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/mainbg.jpg)
+       
+        ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
     }
-
+    
+    
     .h1 {
         font-weight: 900;
         font-size: 44px;
