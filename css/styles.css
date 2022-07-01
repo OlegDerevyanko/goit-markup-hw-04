@@ -128,22 +128,38 @@
         display: flex;
         align-items: center;
     }
-    .mail-icon {
-        padding: 0;
-        border: none;
+    
+    .list-force .mail-icon {
+        display: inline-block;
+        
+        margin-right: 10px;
         width: 16px;
         height: 12px;
+        fill: var(--pt-color)
         
+    }
+    .mail-header:hover .mail-icon {
+        fill: var(--accent-color)
+    }
+    .list-force .mail-icon:hover,
+    .list-force .mail-icon:focus {
+        color: var(--accent-color);
     }
 
     .mail-header {
         color: var(--pt-color);        
     }
-    .tel-icon {
-        padding: 0;
-        border: none;
+
+    .list-force .tel-icon {
+        display: inline-block;
+        margin-right: 10px;     
         width: 10px;
         height: 16px;
+        fill: var(--pt-color)
+        
+    }
+    .tel:hover .tel-icon {
+        fill: var(--accent-color)
     }
 
     .tel {
