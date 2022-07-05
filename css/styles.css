@@ -133,30 +133,40 @@
     
     .list-force .mail-icon {     
          margin-right: 10px;        
-        fill: var(--pt-color)
+        fill: var(--pt-color);
         
     }
     .mail-header:hover .mail-icon,
     .mail-header:focus .mail-icon {
-        fill: var(--accent-color)
+        fill: var(--accent-color);
     }
    
     .mail-header {
-        color: var(--pt-color);        
+        color: var(--pt-color);  
+        display: flex;
+        justify-content: center;
+        align-items: center;      
     }
+    
 
-    .list-force .tel-icon {       
-        margin-right: 10px;        
-        fill: var(--pt-color)
+    .list-force .tel-icon {  
+         
+        margin-right: 10px;
+               
+        fill: var(--pt-color);
+        
         
     }
     .tel:hover .tel-icon,
     .tel:focus .tel-icon {
-        fill: var(--accent-color)
+        fill: var(--accent-color);
     }
 
     .tel {
-        color: var(--pt-color);        
+        color: var(--pt-color); 
+        display: flex;
+        justify-content: center;
+        align-items: center;         
     }
     /* Header :end */
 
@@ -256,9 +266,12 @@
 
     .list-adv .icon {
         display: block;
-        margin: 25px 100px;
+       
     }
     .list-adv .thumb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 270px;
         height: 120px;
         border: 1px solid var(--sbg-color);
@@ -438,11 +451,15 @@
     .client {
         display: flex;
         padding: 0;
+    
+        
     }
     .client .list-client {
         margin-top: 0;
         margin-right: 30px;
         padding: 0;
+        
+        
     }
     
     .client .list-client:last-child {
@@ -452,7 +469,10 @@
         margin-left: 0px;
     }
     .list-client .button {
-        display: inline-block;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border: 1px solid var(--icon-primary-fill);
         border-radius: 4px;
         background-color: var(--pbg-color);    
